@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "忆家全景",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "u-scroll-list": "/uni_modules/uview-ui/components/u-scroll-list/u-scroll-list",
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky"
+  }
+}

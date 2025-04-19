@@ -1,0 +1,14 @@
+.form-Box .item {
+  margin: 30rpx;
+  font-weight: 700;
+}
+.but {
+  text-align: center;
+  background-color: blue;
+  border-radius: 30rpx;
+  width: 80%;
+  margin: 30rpx auto;
+  line-height: 80rpx;
+  color: #fff;
+}
+

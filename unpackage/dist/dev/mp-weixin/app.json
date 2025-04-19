@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/findmap/findmap",
+    "pages/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesde",
+      "pages": [
+        "pages/comhom/comhom",
+        "webview",
+        "pages/collect/collect",
+        "pages/detail/detail",
+        "pages/exemption/exemption",
+        "pages/exemption/mianZe",
+        "pages/mostMap",
+        "pages/city/city",
+        "pages/search/search"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#4dd4a8",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/image/index.png",
+        "selectedIconPath": "static/image/indexCopy.png"
+      },
+      {
+        "text": "地图找家",
+        "pagePath": "pages/findmap/findmap",
+        "iconPath": "static/image/map.png",
+        "selectedIconPath": "static/image/mapCopy.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/image/my.png",
+        "selectedIconPath": "static/image/myCopy.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    },
+    "scope.userFuzzyLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getFuzzyLocation"
+  ],
+  "usingComponents": {}
+}
